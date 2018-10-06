@@ -4,7 +4,7 @@
 
 const pendingTimers = [];
 const pendingOSTasks = [];
-const pendingOperations = [];
+const pendingOperations = []; // ops in the threadpool
 
 
 // New timers, tasks, operations are recorded from myFile running
