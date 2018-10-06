@@ -3,7 +3,7 @@
 // node myFile.js
 
 const pendingTimers = [];
-const pendingOSTasks = [];
+const pendingOSTasks = []; // tasks delegated to OS by node/libuv
 const pendingOperations = []; // ops in the threadpool
 
 
